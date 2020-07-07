@@ -1,113 +1,168 @@
 {
   "facilities": [
     {
-      "id": "30c8c76a-47ad-4294-b0e6-caf8fe02262c",
-      "title": "125 S Clark St. - Garage",
-      "addresses": [
-        {
-          "id": "0a0a45b7-b3ff-47e0-ad34-99a573d254bb",
-          "city": "Chicago",
-          "latitude": 40.6,
-          "longitude": -73.9,
-          "state": "IL",
-          "street_address_1": "123 W Parking Street",
-          "street_address_2": "Unit 4302",
-          "timezone": "America/Chicago",
-          "country": "US",
-          "types": [
-            "physical"
-          ],
-          "zipcode": 60067
-        }
-      ],
-      "amenities": [
-        {
-          "amenity": "shuttle",
-          "description": "Airport Shuttle"
-        }
-      ],
-      "redemption": {
-        "type": "self",
-        "instructions": {
-          "pre": [
+      "common": {
+        "id": "30c8c76a-47ad-4294-b0e6-caf8fe02262c",
+        "title": "125 S Clark St. - Garage",
+        "addresses": [
+          {
+            "id": "0a0a45b7-b3ff-47e0-ad34-99a573d254bb",
+            "city": "Chicago",
+            "latitude": 40.6,
+            "longitude": -73.9,
+            "state": "IL",
+            "street_address": "123 W Parking Street",
+            "time_zone": "America/Chicago",
+            "country": "US",
+            "types": [
+              "default_vehicle_entrance"
+            ],
+            "postal_code": 60067
+          }
+        ],
+        "description": "First level parking spot close to entertainment.",
+        "facility_type": "garage",
+        "navigation_tip": "Enter through the entrance",
+        "clearance_inches": 56,
+        "hours_of_operation": {
+          "periods": [
             {
-              "id": "127ea74f-c217-48d3-8b85-adea6bd3dbf3",
-              "illustration": {
-                "id": "56b76906-24b4-4773-808c-88d66f79a639",
-                "url": "https://spothero.com/images/56b76906-24b4-4773-808c-88d66f79a639.png\n",
-                "caption": "An entrance for vehicles to a gray concrete parking structure.\n"
-              },
-              "text": "Show the attendant your pass."
+              "day_of_week": "monday",
+              "start_time_secs": 3600,
+              "end_time_secs": 3600
             }
           ],
-          "during": [
+          "always_open": false
+        },
+        "images": [
+          {
+            "id": "56b76906-24b4-4773-808c-88d66f79a639",
+            "url": "https://spothero.com/images/56b76906-24b4-4773-808c-88d66f79a639.png\n",
+            "alt_text": "123 Main St Parking"
+          }
+        ],
+        "product_types": [
+          {
+            "type": "monthly",
+            "description": "Hourly parking"
+          }
+        ],
+        "rating": {
+          "average": 4.56,
+          "count": 420
+        },
+        "restrictions": [
+          "Oversized vehicles not permitted."
+        ],
+        "requirements": {
+          "printout": false,
+          "license_plate": false,
+          "phone_number": false
+        },
+        "supported_fee_types": [
+          "airport_fee"
+        ]
+      },
+      "airport": {
+        "amenities": [
+          {
+            "type": "attendant",
+            "description": "Airport Shuttle"
+          }
+        ],
+        "logos": [
+          {
+            "id": "56b76906-24b4-4773-808c-88d66f79a639",
+            "url": "https://spothero.com/images/56b76906-24b4-4773-808c-88d66f79a639.png\n",
+            "alt_text": "123 Main St Parking"
+          }
+        ],
+        "redemption": {
+          "type": "valet",
+          "instructions": {
+            "arrival": [
+              {
+                "id": "127ea74f-c217-48d3-8b85-adea6bd3dbf3",
+                "illustration": {
+                  "id": "56b76906-24b4-4773-808c-88d66f79a639",
+                  "url": "https://spothero.com/images/56b76906-24b4-4773-808c-88d66f79a639.png\n",
+                  "alt_text": "123 Main St Parking"
+                },
+                "text": "Show the attendant your pass."
+              }
+            ],
+            "departure": [
+              {
+                "id": "127ea74f-c217-48d3-8b85-adea6bd3dbf3",
+                "illustration": {
+                  "id": "56b76906-24b4-4773-808c-88d66f79a639",
+                  "url": "https://spothero.com/images/56b76906-24b4-4773-808c-88d66f79a639.png\n",
+                  "alt_text": "123 Main St Parking"
+                },
+                "text": "Show the attendant your pass."
+              }
+            ]
+          }
+        },
+        "shuttle": {
+          "type": "scheduled",
+          "contact_phone_number": "+1 312-867-5309",
+          "schedule": {
+            "fast_frequency": 4,
+            "slow_frequency": 6,
+            "duration": 15
+          },
+          "images": [
             {
-              "id": "127ea74f-c217-48d3-8b85-adea6bd3dbf3",
-              "illustration": {
-                "id": "56b76906-24b4-4773-808c-88d66f79a639",
-                "url": "https://spothero.com/images/56b76906-24b4-4773-808c-88d66f79a639.png\n",
-                "caption": "An entrance for vehicles to a gray concrete parking structure.\n"
-              },
-              "text": "Show the attendant your pass."
+              "id": "56b76906-24b4-4773-808c-88d66f79a639",
+              "url": "https://spothero.com/images/56b76906-24b4-4773-808c-88d66f79a639.png\n",
+              "alt_text": "123 Main St Parking"
             }
           ],
-          "post": [
+          "hours_of_operation": {
+            "periods": [
+              {
+                "day_of_week": "monday",
+                "start_time_secs": 3600,
+                "end_time_secs": 3600
+              }
+            ],
+            "always_open": false
+          }
+        }
+      },
+      "transient": {
+        "amenities": [
+          {
+            "type": "attendant",
+            "description": "Airport Shuttle"
+          }
+        ],
+        "redemption": {
+          "type": "valet",
+          "instructions": [
             {
               "id": "127ea74f-c217-48d3-8b85-adea6bd3dbf3",
               "illustration": {
                 "id": "56b76906-24b4-4773-808c-88d66f79a639",
                 "url": "https://spothero.com/images/56b76906-24b4-4773-808c-88d66f79a639.png\n",
-                "caption": "An entrance for vehicles to a gray concrete parking structure.\n"
+                "alt_text": "123 Main St Parking"
               },
               "text": "Show the attendant your pass."
             }
           ]
         }
       },
-      "description": "First level parking spot close to entertainment.",
-      "facility_type": "garage",
-      "navigation_tip": "Enter through the entrance",
-      "clearance_inches": 56,
-      "hours_of_operation": {
-        "periods": [
-          {
-            "day_of_week": "monday",
-            "start_time_secs": 3600,
-            "end_time_secs": 3600
-          }
-        ],
-        "text": "This facility is open 24/7",
-        "always_open": false
-      },
-      "images": [
-        {
-          "id": "56b76906-24b4-4773-808c-88d66f79a639",
-          "url": "https://spothero.com/images/56b76906-24b4-4773-808c-88d66f79a639.png\n",
-          "caption": "An entrance for vehicles to a gray concrete parking structure.\n"
+      "monthly": {
+        "highest_price": {
+          "value": 350,
+          "currency_code": "USD"
+        },
+        "lowest_price": {
+          "value": 350,
+          "currency_code": "USD"
         }
-      ],
-      "product_types": [
-        {
-          "type": "airport",
-          "description": "Hourly parking"
-        }
-      ],
-      "ratings": {
-        "rating": 4.56,
-        "count": 420
-      },
-      "restrictions": [
-        "Oversized vehicles not permitted."
-      ],
-      "requirements": {
-        "printout": false,
-        "license_plate": false,
-        "phone_number": false
-      },
-      "supported_fee_types": [
-        "reservation_fee"
-      ],
-      "@availability": "https://api.spothero.com/v2/search/30c8c76a-47ad-4294-b0e6-caf8fe02262c"
+      }
     }
   ],
   "@next": "string"
