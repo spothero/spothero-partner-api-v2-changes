@@ -1,0 +1,67 @@
+{
+  "reservation": {
+    "reservation_id": "d327ac33-e61a-4aa9-a31b-13bbe29e5a99",
+    "quote": {
+      "facility_id": "4d21ac33-eb4b-4aa9-851b-1fbbf29eba35",
+      "starts": "2019-08-19T18:48:12.000Z",
+      "ends": "2019-08-19T13:49:37.000Z",
+      "order": [
+        {
+          "items": [
+            {
+              "price": {
+                "value": 350,
+                "currency": "CAD"
+              },
+              "type": "rental",
+              "short_description": "Rental",
+              "full_description": "Rental of $20.00 x 3 days"
+            }
+          ],
+          "total_price": {
+            "value": 350,
+            "currency": "CAD"
+          },
+          "advertised_price": {
+            "value": 350,
+            "currency": "CAD"
+          }
+        }
+      ],
+      "partner_id": "759d7ae7-40e9-484b-85dc-c360b1cbdfba",
+      "quote_valid_until": "2019-08-19T18:48:12.000Z",
+      "quote_mac": "VGhlIHBoaWxvc29waGVycyBoYXZlIG9ubHkgaW50ZXJwcmV0ZWQgdGhlIHdvcmxkLCBpbiB2YXJpb3VzIHdheXMuIFRoZSBwb2ludCwgaG93ZXZlciwgaXMgdG8gY2hhbmdlIGl0",
+      "meta": {}
+    },
+    "renter": {
+      "renter_id": "9d7cfede-255b-4c26-9c23-d90acc171174",
+      "email": "jdoe@example.com",
+      "phone_number": 13128675309
+    },
+    "payment": {
+      "card_id": "9472dcd7-5275-4a2e-8cbb-4240f05bc00c",
+      "card_token": "2d4ae0a2-043e-4fa0-94f6-834db62ad502",
+      "promo_code": "SAVEWITHSPOTHERO1234"
+    },
+    "parked_vehicle": {
+      "vehicle_description": {
+        "year": 1992,
+        "make": "Geo",
+        "model": "Metro"
+      },
+      "license_plate": {
+        "number": "ABC123"
+      }
+    },
+    "parking_pass": {
+      "end_user_redemption_url": "https://api.spothero.com/v1/parking-pass/67890/?key=testkey"
+    },
+    "status": {
+      "reservation": "pending",
+      "payment": "pending"
+    }
+  },
+  "failed_modifications": [
+    "MODIFICATION_TIME"
+  ]
+}
