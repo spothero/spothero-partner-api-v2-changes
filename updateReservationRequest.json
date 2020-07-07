@@ -1,16 +1,17 @@
 {
   "reservation": {
     "quote": {
-      "facility_id": "4d21ac33-eb4b-4aa9-851b-1fbbf29eba35",
-      "starts": "2019-08-19T18:48:12.000Z",
-      "ends": "2019-08-19T13:49:37.000Z",
       "order": [
         {
+          "facility_id": "4d21ac33-eb4b-4aa9-851b-1fbbf29eba35",
+          "starts": "2019-08-19T18:48:12.000Z",
+          "ends": "2019-08-19T13:49:37.000Z",
+          "rate_id": "6a1f5114-c333-4d1b-b81d-19362074e4e8",
           "items": [
             {
               "price": {
                 "value": 350,
-                "currency": "CAD"
+                "currency_code": "USD"
               },
               "type": "rental",
               "short_description": "Rental",
@@ -19,17 +20,30 @@
           ],
           "total_price": {
             "value": 350,
-            "currency": "CAD"
+            "currency_code": "USD"
           },
-          "advertised_price": {
-            "value": 350,
-            "currency": "CAD"
-          }
+          "meta": {}
         }
       ],
-      "partner_id": "759d7ae7-40e9-484b-85dc-c360b1cbdfba",
-      "quote_valid_until": "2019-08-19T18:48:12.000Z",
-      "quote_mac": "VGhlIHBoaWxvc29waGVycyBoYXZlIG9ubHkgaW50ZXJwcmV0ZWQgdGhlIHdvcmxkLCBpbiB2YXJpb3VzIHdheXMuIFRoZSBwb2ludCwgaG93ZXZlciwgaXMgdG8gY2hhbmdlIGl0",
+      "items": [
+        {
+          "price": {
+            "value": 350,
+            "currency_code": "USD"
+          },
+          "type": "rental",
+          "short_description": "Rental",
+          "full_description": "Rental of $20.00 x 3 days"
+        }
+      ],
+      "total_price": {
+        "value": 350,
+        "currency_code": "USD"
+      },
+      "advertised_price": {
+        "value": 350,
+        "currency_code": "USD"
+      },
       "meta": {}
     },
     "renter": {
